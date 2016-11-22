@@ -8,7 +8,9 @@
                     <?php the_time('M j'); ?>
                 </time>
                 by <?php the_author(); ?>
+             <p><?php get_sidebar('nice-bar'); ?></p>
              </p>
+
             <?php the_post_thumbnail(); ?>
             <?php the_content(); ?>
             <?php comments_number("0 comments", "1 comment", "% comments"); ?>

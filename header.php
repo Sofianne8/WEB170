@@ -27,9 +27,7 @@
         
         <?php wp_nav_menu($mainNav); ?>
     </header>
-<div id="access" role="navigation">
-  <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-</div><!-- #access -->
+
     <div id="header">
  <div id="headerimg">
    <h1>
